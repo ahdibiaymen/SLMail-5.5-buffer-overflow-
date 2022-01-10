@@ -2,7 +2,7 @@
 
 Le serveur POP3 du Seattle Lab Mail 5.5 souffre d'une vulnérabilité de dépassement de tampon non authentifié lors de la réception d'un mot de passe très long. on peut  exploiter cette vulnérabilité dans n'importe quelle version de Windows exécutant l'exécutable SLmail.exe.
 
-j'ai exploité cette vulnérabilité dans l'environnement **Windows Xp Sp3** par **KALI linux** version 2021 tout en utilisant un exploit automatisé '**Metasploit**' et un exploit Manuel pas à pas par le débugger '**Immunity debugger**' 
+j'ai exploité cette vulnérabilité dans l'environnement **Windows Xp Sp3** par **KALI linux** version 2021 tout en utilisant un exploit automatisé '**Metasploit**' et un exploit Manuel pas à pas avec le débugger '**Immunity debugger**' 
 
 ## Test d'exploit
 
