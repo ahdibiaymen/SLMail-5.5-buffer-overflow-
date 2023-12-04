@@ -1,24 +1,24 @@
 # SLMail 5.5 buffer overflow
 
-Le serveur POP3 du Seattle Lab Mail 5.5 souffre d'une vulnérabilité de dépassement de tampon non authentifié lors de la réception d'un mot de passe très long. on peut  exploiter cette vulnérabilité dans n'importe quelle version de Windows exécutant l'exécutable SLmail.exe.
+Seattle Lab Mail 5.5 server is vulnerable to an unauthenticated buffer overflow attack when receiving an excessively long password. This vulnerability can be exploited in any version of Windows running the executable SLmail.exe.
 
-j'ai exploité cette vulnérabilité dans l'environnement **Windows Xp Sp3** par **KALI linux** version 2021 tout en utilisant un exploit automatisé '**Metasploit**' et un exploit Manuel pas à pas avec le débugger '**Immunity debugger**' 
+I exploited this vulnerability in the Windows XP SP3 environment using Kali Linux version 2021, using an automated exploit 'Metasploit' and a manual step-by-step exploit with the 'Immunity Debugger'.
 
-## Test d'exploit
+## TEST
 
-* lancer le service POP3 SLMail dans la machine victime 
-* exécuter le script python '**slmail.py**' par la syntaxe suivante :
-NB: @machine_victime doit être remplacé par l'adresse réel de la machine victime 
+* start the service POP3 SLMail in the victim machine.  
+* execute the python script '**slmail.py**' using the following syntaxe :
+NB: @machine_victime needs to be replaced by the real victim machine address 
 
 ```bash
-./slmail.py @machine_victime```
-
-## Vous devez donner les droits d'execution au script 
-## chmod +x slmail.py
-
+./slmail.py @machine_victime
 ```
 
-## Détail de l'exploit 
-vous trouverez tout détail d'exploit bien expliqué étape par étape dans le fichier 
+* Don't forget to grant execution privilege to the script   
+```bash
+chmod +x slmail.py
+```
 
-'**Rapport exploit SLMail v5.5.0.DOCX**' 
+## Exploit Details (FR)
+ 
+For a comprehensive, step-by-step explanation of the exploit, refer to the file **Rapport exploit SLMail v5.5.0.DOCX** for thorough exploit details. 
