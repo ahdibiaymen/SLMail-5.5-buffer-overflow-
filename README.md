@@ -33,7 +33,7 @@ Download Immunity debbugger for manual exploitation
 5. Set the options as follows:
     1. *RHOSTS*: Remote vulnerable host IP -> WinXP machine
     2. *LHOST*: Local attacker machine -> Kali machine
-    3. *PORT*: 4444 or other free port
+    3. *LPORT*: 4444 or other free port
 6. Exploit!
  
 #### Manual exploitation
